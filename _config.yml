@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Record
 subtitle:
 description:
 author: John Doe
@@ -72,3 +72,12 @@ deploy:
   repo: https://github.com/liyork/liyork.github.io.git
   branch: master
 
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor
